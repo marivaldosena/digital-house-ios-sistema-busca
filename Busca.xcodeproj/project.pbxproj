@@ -13,6 +13,15 @@
 		C9DB875C2514E6BE005B8DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DB875A2514E6BE005B8DA5 /* Main.storyboard */; };
 		C9DB875E2514E6F7005B8DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DB875D2514E6F7005B8DA5 /* Assets.xcassets */; };
 		C9DB87612514E6F7005B8DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DB875F2514E6F7005B8DA5 /* LaunchScreen.storyboard */; };
+		C9DB876A2514E812005B8DA5 /* Aviao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87692514E812005B8DA5 /* Aviao.swift */; };
+		C9DB876C2514E8A4005B8DA5 /* PessoaFisica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB876B2514E8A4005B8DA5 /* PessoaFisica.swift */; };
+		C9DB876E2514E8B9005B8DA5 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB876D2514E8B9005B8DA5 /* Pessoa.swift */; };
+		C9DB87702514E90E005B8DA5 /* PessoaJuridica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB876F2514E90E005B8DA5 /* PessoaJuridica.swift */; };
+		C9DB87722514E948005B8DA5 /* Cachorro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87712514E948005B8DA5 /* Cachorro.swift */; };
+		C9DB87742514E988005B8DA5 /* Caneta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87732514E988005B8DA5 /* Caneta.swift */; };
+		C9DB87762514E9F5005B8DA5 /* Pesquisavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87752514E9F5005B8DA5 /* Pesquisavel.swift */; };
+		C9DB87782514EB01005B8DA5 /* ItensRepositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87772514EB01005B8DA5 /* ItensRepositorio.swift */; };
+		C9DB877A2514EF1E005B8DA5 /* Nomeavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB87792514EF1E005B8DA5 /* Nomeavel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C9DB875D2514E6F7005B8DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DB87602514E6F7005B8DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DB87622514E6F7005B8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DB87692514E812005B8DA5 /* Aviao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviao.swift; sourceTree = "<group>"; };
+		C9DB876B2514E8A4005B8DA5 /* PessoaFisica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaFisica.swift; sourceTree = "<group>"; };
+		C9DB876D2514E8B9005B8DA5 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		C9DB876F2514E90E005B8DA5 /* PessoaJuridica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaJuridica.swift; sourceTree = "<group>"; };
+		C9DB87712514E948005B8DA5 /* Cachorro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachorro.swift; sourceTree = "<group>"; };
+		C9DB87732514E988005B8DA5 /* Caneta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caneta.swift; sourceTree = "<group>"; };
+		C9DB87752514E9F5005B8DA5 /* Pesquisavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesquisavel.swift; sourceTree = "<group>"; };
+		C9DB87772514EB01005B8DA5 /* ItensRepositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItensRepositorio.swift; sourceTree = "<group>"; };
+		C9DB87792514EF1E005B8DA5 /* Nomeavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomeavel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 		C9DB87532514E6BE005B8DA5 /* Busca */ = {
 			isa = PBXGroup;
 			children = (
+				C9DB877B2514F0EA005B8DA5 /* Extensions */,
+				C9DB87682514E7BD005B8DA5 /* Domain */,
 				C9DB87542514E6BE005B8DA5 /* AppDelegate.swift */,
 				C9DB87562514E6BE005B8DA5 /* SceneDelegate.swift */,
 				C9DB87582514E6BE005B8DA5 /* ViewController.swift */,
@@ -65,6 +85,29 @@
 				C9DB87622514E6F7005B8DA5 /* Info.plist */,
 			);
 			path = Busca;
+			sourceTree = "<group>";
+		};
+		C9DB87682514E7BD005B8DA5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C9DB87692514E812005B8DA5 /* Aviao.swift */,
+				C9DB876B2514E8A4005B8DA5 /* PessoaFisica.swift */,
+				C9DB876D2514E8B9005B8DA5 /* Pessoa.swift */,
+				C9DB876F2514E90E005B8DA5 /* PessoaJuridica.swift */,
+				C9DB87712514E948005B8DA5 /* Cachorro.swift */,
+				C9DB87732514E988005B8DA5 /* Caneta.swift */,
+				C9DB87772514EB01005B8DA5 /* ItensRepositorio.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C9DB877B2514F0EA005B8DA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9DB87792514EF1E005B8DA5 /* Nomeavel.swift */,
+				C9DB87752514E9F5005B8DA5 /* Pesquisavel.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +182,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DB87592514E6BE005B8DA5 /* ViewController.swift in Sources */,
+				C9DB876C2514E8A4005B8DA5 /* PessoaFisica.swift in Sources */,
+				C9DB87762514E9F5005B8DA5 /* Pesquisavel.swift in Sources */,
+				C9DB87722514E948005B8DA5 /* Cachorro.swift in Sources */,
 				C9DB87552514E6BE005B8DA5 /* AppDelegate.swift in Sources */,
+				C9DB87782514EB01005B8DA5 /* ItensRepositorio.swift in Sources */,
+				C9DB876A2514E812005B8DA5 /* Aviao.swift in Sources */,
+				C9DB87702514E90E005B8DA5 /* PessoaJuridica.swift in Sources */,
+				C9DB877A2514EF1E005B8DA5 /* Nomeavel.swift in Sources */,
+				C9DB87742514E988005B8DA5 /* Caneta.swift in Sources */,
+				C9DB876E2514E8B9005B8DA5 /* Pessoa.swift in Sources */,
 				C9DB87572514E6BE005B8DA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
