@@ -32,4 +32,8 @@ class ItensRepositorio {
         
         return resultado
     }
+    
+    func incluir(item: Pesquisavel) {
+        self.itens.append(item)
+    }
 }

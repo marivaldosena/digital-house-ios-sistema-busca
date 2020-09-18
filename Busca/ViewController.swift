@@ -18,6 +18,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         buscaSearchBar.delegate = self
+        
+        let cachorro = Cachorro(nome: "Totó", raca: "vira lata")
+        let joao = PessoaFisica(nome: "João", cpf: "1234")
+        let maria = PessoaFisica(nome: "Maria", cpf: "4321")
+        let empresa = PessoaJuridica(nome: "Digital House", cnpj: "333333")
+        
+        itensRepositorio.incluir(item: cachorro)
+        itensRepositorio.incluir(item: joao)
+        itensRepositorio.incluir(item: maria)
+        itensRepositorio.incluir(item: empresa)
     }
 }
 
