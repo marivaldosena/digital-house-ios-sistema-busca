@@ -33,8 +33,16 @@ class ViewController: UIViewController {
 
 extension ViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        if let termoBusca = searchBar.text {
-            resultadoLabel.text = itensRepositorio.getBuscar(termo: termoBusca)
+        if let termo = searchBar.text {
+            resultadoLabel.text = self.getBuscar(termo: termo)
         }
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        resultadoLabel.text = self.getBuscar(termo: searchText)
+    }
+    
+    private func getBuscar(termo: String) -> String {
+        return itensRepositorio.getBuscar(termo: termo)
     }
 }
